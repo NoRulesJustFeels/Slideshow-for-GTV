@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/preferences_category_general" >
+        <ListPreference
+            android:defaultValue="5"
+            android:entries="@array/dimPhotoDelayArray"
+            android:entryValues="@array/dimPhotoDelayValues"
+            android:key="general.photo_delay"
+            android:summary="@string/preferences_general_photo_delay_summary"
+            android:title="@string/preferences_general_photo_delay_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
